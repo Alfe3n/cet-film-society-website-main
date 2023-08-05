@@ -1,0 +1,27 @@
+.HeroSection {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0 3rem;
+}
+
+.img-block {
+  width: 350px;
+  height: 350px;
+  background-color: red;
+}
+
+.hero-details {
+  max-width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 50%;
+}
+
+.hero-img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

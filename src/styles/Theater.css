@@ -1,0 +1,143 @@
+.Theater {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 300px;
+  background-color: white;
+}
+
+.parallax-group {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  transform-style: preserve-3d;
+}
+
+.parallax_layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.screen {
+  background: url("../../static/images/theater/screen.png") no-repeat bottom;
+  background-size: cover;
+  transform: translateZ(-600px) scale(3);
+  z-index: 1;
+}
+
+.seat-1 {
+  background: url("../../static/images/theater/seat-1.png") no-repeat bottom;
+  background-size: cover;
+  transform: translateZ(-250px) scale(1.83333);
+  z-index: 4;
+}
+
+.seat-2 {
+  background: url("../../static/images/theater/seat-2.png") no-repeat bottom;
+  background-size: cover;
+  transform: translateZ(-125px) scale(1.4167);
+  z-index: 5;
+}
+
+.seat-3 {
+  background: url("../../static/images/theater/seat-3.png") no-repeat bottom;
+  background-size: cover;
+  transform: translateZ(0) scale(1);
+  z-index: 6;
+}
+
+.hero-text {
+  background-color: #ffffff;
+  transform: translateZ(0) scale(1);
+  z-index: 7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  transform-origin: top;
+}
+.landing-cover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.club-title {
+  font-family: "Recoleta";
+  font-weight: 600;
+  font-size: 32px;
+  color: var(--brown100);
+}
+.club-subtitle {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  color: var(--brown80);
+}
+
+@keyframes bob {
+  0% {
+    transform: translateY(0);
+    transition: all 0.5s;
+  }
+  100% {
+    transform: translateY(20px);
+    transition: all 0.5s;
+  }
+}
+.scroll-explore {
+  cursor: pointer;
+  width: 70px;
+  animation: bob 1.5s infinite;
+}
+
+.content {
+  z-index: 8;
+  background-color: var(--brown5);
+  height: fit-content;
+}
+
+.section-title {
+  font-family: "Recoleta";
+  font-weight: 600;
+  font-size: 36px;
+  color: var(--brown100);
+  margin: 0.8rem 0;
+}
+.section-subtitle {
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--brown80);
+}
+.cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  font-family: "Outfit", sans-serif;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--brown100);
+  background-color: transparent;
+  border: var(--brown100) solid 3px;
+  border-radius: 100px;
+  max-width: fit-content;
+  max-height: fit-content;
+  cursor: pointer;
+  text-transform: uppercase;
+  user-select: none;
+}
+.cta:hover {
+  color: white;
+  background-color: var(--brown100);
+  cursor: pointer;
+  transition: all 0.1s;
+}
+.cta:active {
+  transform: scale(0.9);
+}
