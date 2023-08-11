@@ -11,14 +11,12 @@ function RangamSection() {
       <Row>
         <Col md={6} className="rangam-section-left p-1">
           <div className="section-title">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus
-            dolor varius sed turpis
+            Rangam Film Festival, an indulgence into the art of watching movies
           </div>
           <div className="section-subtitle my-3">
-            “A celebration of the independent soul of cinema, and a tribute to
-            the
-            <br />
-            evergreen platform”
+            Rangam Film Festival is a 7 day fiesta open to all wherein the
+            finest curated selection of movies are screened and a latitude for
+            thought and reflection is given.
           </div>
           <div className="cta">
             EXPLORE MORE <Icon icon="ic:baseline-arrow-forward" />

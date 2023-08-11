@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles/HeroSection.css";
-import heroimg from "../static/images/hero-placeholder.png";
+import heroimg from "../static/images/hero-placeholder.svg";
 
 import { Icon } from "@iconify/react";
 
@@ -10,8 +10,7 @@ function HeroSection() {
       <div className="hero-details">
         <div className="hero-details-text">
           <h1 className="section-title">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
-            pariatur
+            CET Film Society, for the cinephiles and connoisseurs inside you
           </h1>
           <div className="section-subtitle">
             CET Film Society is a community aimed at celebrating the art of
