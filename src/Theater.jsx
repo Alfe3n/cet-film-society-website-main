@@ -7,6 +7,7 @@ import logo from "../static/images/CET Film Society logo 1.svg";
 import downArrow from "../static/images/downArrow.svg";
 import RangamSection from "./RangamSection";
 import Associates from "./Associates";
+import Footer from "./footer";
 
 function Theater(props) {
   const [navbarDisplay, setNavbarDisplay] = useState(false);
@@ -73,7 +74,9 @@ function Theater(props) {
       <div className="content parallax-group">
         <Associates />
       </div>
-      <div className="content parallax-group">Footer Section</div>
+      <div className="w-screen">
+        <Footer />
+      </div>
     </div>
   );
 }
