@@ -6,6 +6,9 @@
   font-weight: 600;
 }
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 :root {
   --brown100: #8e3200;
   --brown80: #a55b33;
