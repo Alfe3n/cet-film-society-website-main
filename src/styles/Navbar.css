@@ -4,6 +4,8 @@
   left: 0;
   z-index: 1;
   background-color: rgba(142, 50, 0, 0.16);
+
+  /* background-color: #d2ad99; */
   backdrop-filter: blur(16px);
   width: 100%;
   font-family: "Outfit", sans-serif;

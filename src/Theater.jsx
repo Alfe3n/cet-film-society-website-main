@@ -74,7 +74,7 @@ function Theater(props) {
       <div className="content parallax-group">
         <Associates />
       </div>
-      <div className="w-screen">
+      <div>
         <Footer />
       </div>
     </div>

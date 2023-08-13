@@ -19,11 +19,11 @@ function HeroSection() {
             movies, primarily independent, be it Indian or foreign.
           </div>
         </div>
-        <div className="cta">
+        <div className="cta my-10">
           Explore More <Icon icon="ic:baseline-arrow-forward" />
         </div>
       </div>
-      <div className="hero-img">
+      <div className="hero-img hidden md:block">
         <img src={heroimg} alt="Hero Image" />
       </div>
     </div>

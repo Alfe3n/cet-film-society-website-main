@@ -22,7 +22,9 @@ function ReviewSection() {
       <div className="review-cards">
         <ReviewCard />
         <ReviewCard />
-        <ReviewCard />
+        <div className="hidden md:block">
+          <ReviewCard />
+        </div>
       </div>
     </div>
   );
