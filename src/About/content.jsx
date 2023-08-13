@@ -14,11 +14,11 @@ function content() {
   return (
     <div>
       <div className="flex items-center CET mt-28">
-        <div className="pb-10 px-14">
-          <h2 className="mb-6 text-2xl font-recoleta text-brown100">
+        <div className="pb-10 px-20 flex-1">
+          <h2 className="mb-6 text-3xl font-recoleta text-brown100 font-semibold">
             About CET
           </h2>
-          <div className=" font-outfit text-brown80">
+          <div className=" font-outfit text-brown80 text-lg font-normal">
             <p className="mb-8">
               College Of Engineering Trivandrum, the pioneer institute of
               technical education in Kerala has held its status of excellence in
@@ -39,23 +39,23 @@ function content() {
             Learn More <Icon icon="ic:baseline-arrow-forward" />
           </div>
         </div>
-        <div className="h-full">
-          <img src={cet} alt="cet pic" className=""></img>
+        <div className="w-1/2 flex-1 flex justify-end">
+          <img src={cet} alt="cet pic" className="h-[420px] w-fit"/>
         </div>
       </div>
       <div className="flex items-center justify-between Club bg-brown5">
-        <div className="w-1/2">
+        <div className="w-1/2 flex-1 flex items-center justify-center">
           <img
             src={event}
             alt="event pic"
-            className="object-contain w-1/2 h-1/2"
+            className="object-contain w-2/3 h-2/3"
           ></img>
         </div>
-        <div className="w-1/2">
-          <h2 className="my-10 text-lg font-recoleta text-brown100">
+        <div className="w-1/2 flex-1 px-20">
+          <h2 className="my-10 text-3xl font-recoleta text-brown100 font-semibold">
             About Club
           </h2>
-          <div className="mb-10 font-outfit text-brown80">
+          <div className="mb-10 font-outfit text-brown80 text-lg font-normal">
             <p className="mb-8">
               CET Film Society is a community aimed at celebrating the art of
               cinema. Initiated by a group of film enthusiastic students, the
@@ -73,7 +73,7 @@ function content() {
               We also have an active social media presence with our Weekly
               Suggestions, Movie Reviews and other contests and events. The CET
               Film Society is an inclusive group rendering an imaginative and
-              critical space for CETians.
+              critical space for CETians.
             </p>
           </div>
         </div>
