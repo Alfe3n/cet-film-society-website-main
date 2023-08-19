@@ -1,6 +1,6 @@
 # cet-film-society-website-main
 
-Official website of Film Club Cet -(Undergoind desihn changes)
+Official website of Film Club Cet -(Undergoing design changes)
 
 ## Usage
 
